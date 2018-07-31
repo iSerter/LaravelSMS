@@ -19,6 +19,7 @@ use SimpleSoftwareIO\SMS\Drivers\LabsMobileSMS;
 use SimpleSoftwareIO\SMS\Drivers\MozeoSMS;
 use SimpleSoftwareIO\SMS\Drivers\NexmoSMS;
 use SimpleSoftwareIO\SMS\Drivers\TwilioSMS;
+use SimpleSoftwareIO\SMS\Drivers\VerimorSMS;
 
 class DriverManager extends Manager
 {
@@ -164,6 +165,12 @@ class DriverManager extends Manager
             $this->app['request']->url(),
             $config['verify']
         );
+    }
+
+    protected function createVerimorDriver() {
+        $config = $this->app['config']->get('sms.verimor', []);
+
+        return new VerimorSMS($config['username'],$config['password']);
     }
 
     protected function createInfobipDriver()

@@ -51,6 +51,10 @@
     |   API Key:     Your API key. (https://dashboard.nexmo.com/private/settings)
     |   API Secret:  Your API secret. (https://dashboard.nexmo.com/private/settings)
     |--------------------------------------------------------------------------
+    | Verimor
+    |   Username:     Your Verimor API user. (https://oim.verimor.com.tr/sms_settings/edit)
+    |   Password:  Your Verimor API password. (https://oim.verimor.com.tr/sms_settings/edit)
+    |--------------------------------------------------------------------------
     | Twilio Additional Settings
     |   Account SID:  The Account SID associated with your Twilio account. (https://www.twilio.com/user/account/settings)
     |   Auth Token:   The Auth Token associated with your Twilio account. (https://www.twilio.com/user/account/settings)
@@ -91,8 +95,12 @@ return [
         'auth_token' => 'Your Token',
         'verify' => true,
     ],
-    'infobip'=> [
-         'username' => 'username of infobip',
-         'password' => 'password of infobip'
+    'verimor' => [
+        'username' => '',
+        'password' => ''
+    ],
+    'infobip' => [
+        'username' => 'username of infobip',
+        'password' => 'password of infobip'
     ]
 ];
