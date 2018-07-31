@@ -16,11 +16,11 @@
     ],
     "require": {
         "php": ">=5.5.0",
-        "illuminate/mail": ">=5.0.0",
-        "illuminate/log": ">=5.0.0",
-        "illuminate/queue": ">=5.0.0",
-        "illuminate/support": ">=5.0.0",
-        "illuminate/view": ">=5.0.0",
+        "illuminate/mail": ">=5.4.0",
+        "illuminate/log": ">=5.4.0",
+        "illuminate/queue": ">=5.4.0",
+        "illuminate/support": ">=5.4.0",
+        "illuminate/view": ">=5.4.0",
         "twilio/sdk": "~4",
         "guzzlehttp/guzzle": "~6",
         "infobip/oneapi": "^1.1"

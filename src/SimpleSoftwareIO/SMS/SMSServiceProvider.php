@@ -64,7 +64,7 @@ class SMSServiceProvider extends ServiceProvider
      */
     public function registerSender()
     {
-        $this->app['sms.sender'] = $this->app->share(function ($app) {
+        $this->app['sms.sender'] = $this->app->singleton(function ($app) {
             return (new DriverManager($app))->driver();
         });
     }
