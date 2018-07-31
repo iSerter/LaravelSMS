@@ -1,13 +1,17 @@
 {
-    "name": "simplesoftwareio/simple-sms",
-    "description": "Simple-SMS is a package made for Laravel to send/receive (polling/pushing) text messages.  Currently supports CallFire, EZTexting, Email Gateways, Mozeo, and Twilio.",
-    "keywords": ["sms", "laravel", "simple", "twilio", "callfire", "eztexting", "mozeo", "labsmobile", "nexmo", "text messages", "send", "receive"],
-    "homepage": "http://www.simplesoftware.io",
+    "name": "iserter/laravel-sms",
+    "description": "A fork of simplesoftwareio/simple-sms with Verimor driver.",
+    "keywords": ["sms", "laravel", "simple", "verimor", "twilio", "callfire", "eztexting", "mozeo", "labsmobile", "nexmo", "text messages", "send", "receive"],
+    "homepage": "https://github.com/iSerter/LaravelSMS",
     "license": "MIT",
     "authors": [
         {
             "name": "Simple Software LLC",
             "email": "support@simplesoftware.io"
+        },
+        {
+            "name": "Ilyas Serter",
+            "email": "info@ilyasserter.com"
         }
     ],
     "require": {
