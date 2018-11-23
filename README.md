@@ -18,6 +18,7 @@ Simple SMS
     * [Nexmo Driver](#docs-nexmo-driver)
     * [Twilio Driver](#docs-twilio-driver)
     * [Infobip Driver](#docs-infobip-driver)
+    * [Verimor.com.tr Driver](#docs-verimor-driver)
 * [Driver Support](#docs-driver-support)
 * [Usage](#docs-usage)
 * [Outgoing Message Enclosure](#docs-outgoing-enclosure)
@@ -235,6 +236,20 @@ This driver sends messages through the [Infobib](http://www.infobip.com/en) mess
     ];
 For more information see [Infobip API Developer Hub](https://dev.infobip.com/)
 
+<a id="docs-verimor-driver"></a>
+######  Verimor Driver
+
+This driver sends messages through the [Verimor.com.tr](http://www.verimor.com.tr) messaging service.  
+
+    return [
+        'driver' => 'verimor',
+        'verimor'=> [
+             'username' => 'username of verimor',
+             'password' => 'password of verimor'
+         ]
+    ];
+For more information see [Verimor SMS API](https://www.verimor.com.tr/verimor-sms-api/)
+
 <a id="docs-driver-support"></a>
 ##Driver Support
 
@@ -249,6 +264,8 @@ Not all drivers support every method due to the differences in each individual A
 | Mozeo | Yes | Yes | Yes | No | No | No |
 | Nexmo | Yes | Yes | Yes | Yes | Yes | Yes |
 | Twilio | Yes | Yes | Yes | Yes | Yes | Yes |
+| Verimor.com.tr | Yes | Yes | Yes | No | No | No |
+
 
 <a id="docs-usage"></a>
 ## Usage
