@@ -1,5 +1,6 @@
 Simple SMS
 ==========
+A fork of mrabbani/LaravelSMS with Verimor.com.tr SMS driver.
 
 [![Build Status](https://travis-ci.org/SimpleSoftwareIO/simple-sms.svg?branch=master)](https://travis-ci.org/SimpleSoftwareIO/simple-sms)
 [![Latest Stable Version](https://poser.pugx.org/simplesoftwareio/simple-sms/v/stable.svg)](https://packagist.org/packages/simplesoftwareio/simple-sms)
@@ -46,7 +47,7 @@ Please read the Laravel 4 [documentation.](https://github.com/SimpleSoftwareIO/s
 
 First, add the Simple SMS package to your `require` in your `composer/json` file:
 
-`composer require mrabbani/laravel_infobip`
+`composer require iserter/laravel-sms`
 
 Next, run the `composer update` command.  This will install the package into your Laravel application.
 
